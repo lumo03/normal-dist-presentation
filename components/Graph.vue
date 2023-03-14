@@ -14,6 +14,7 @@ export default {
       chartOptions: {
         responsive: true,
         radius: 0,
+        animation: false,
       },
     };
   },
