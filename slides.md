@@ -103,7 +103,7 @@ Geben Sie Erwartungswert und Standardabweichung der Verteilungen an und begründ
 - Veränderung von $\mu$ verschiebt die Glockenkurve in x-Richtung
 - $\mu$ ist die x-Koordinate des Hochpunkts
 - Achsensymmetrie zur Geraden mit der Gleichung $x=\mu$
-- -> Symmetrie um Erwartungswert
+- → Symmetrie um Erwartungswert
 
 </v-clicks>
 
