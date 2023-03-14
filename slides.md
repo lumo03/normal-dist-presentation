@@ -112,7 +112,7 @@ Geben Sie Erwartungswert und Standardabweichung der Verteilungen an und begründ
 # Sigma-Intervalle
 
 <div id="image-div">
-<img src="images/sigma-intervalle.png" />
+<img src="./images/sigma-intervalle.png" />
 </div>
 
 <br/>
