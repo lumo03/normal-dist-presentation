@@ -108,17 +108,11 @@ Geben Sie Erwartungswert und Standardabweichung der Verteilungen an und begründ
 </v-clicks>
 
 ---
-layout: image
-
-image: /sigma-intervalle3.png
----
-
----
 
 # Sigma-Intervalle
 
 <div id="image-div">
-  <img src="/sigma-intervalle3.png" class="m-40 h-40 rounded shadow" />
+  <img src="/sigma-intervalle3.png" class="rounded shadow" />
 </div>
 
 <br />
