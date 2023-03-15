@@ -15,6 +15,12 @@ export default {
         responsive: true,
         radius: 0,
         animation: false,
+        scales: {
+          y: {
+            min: 0,
+            max: 0.5,
+          },
+        },
       },
     };
   },
@@ -23,7 +29,9 @@ export default {
       return Array.from({ length: 201 }, (_, i) => (i / 10 - 10).toFixed(1));
     },
     chartDatasetLabel() {
-      return `N(${(this.mu * 1).toFixed(2)}|${(this.sigma * this.sigma).toFixed(2)})`;
+      return `N(${(this.mu * 1).toFixed(2)}|${(this.sigma * this.sigma).toFixed(
+        2
+      )})`;
     },
     chartData() {
       let data: number[] = [];
