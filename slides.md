@@ -89,6 +89,16 @@ Geben Sie Erwartungswert und Standardabweichung der Verteilungen an und begründ
 
 ---
 
+# Standardnormalverteilung
+
+<br />
+
+$$\ {\displaystyle X\sim {\mathcal {N}}\left(0 ,1 \right)}$$
+
+$$\Phi(x) = \frac{1}{\sqrt{2\pi}} \cdot e^{-\frac{x^2}{2}}$$
+
+---
+
 <Graph />
 
 ---
