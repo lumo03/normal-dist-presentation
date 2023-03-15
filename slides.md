@@ -93,9 +93,23 @@ Geben Sie Erwartungswert und Standardabweichung der Verteilungen an und begründ
 
 <br />
 
+<v-click>
+
+$$\mu = 0\ \ \land\ \ \sigma=1$$
+
+</v-click>
+
+<v-click>
+
 $$\ {\displaystyle X\sim {\mathcal {N}}\left(0 ,1 \right)}$$
 
+</v-click>
+
+<v-click>
+
 $$\Phi(x) = \frac{1}{\sqrt{2\pi}} \cdot e^{-\frac{x^2}{2}}$$
+
+</v-click>
 
 ---
 
