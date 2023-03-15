@@ -200,3 +200,11 @@ $$ \sigma = \sqrt{\mu \cdot q} = \sqrt{n \cdot p \cdot q} = \sqrt{n \cdot p \cdo
 $$ \sigma^2 = n \cdot p \cdot (1-p) $$
 
 </v-click>
+
+---
+
+<img src="/aufgabe2.png" />
+
+---
+
+<img src="/aufgabe2l.png" />
