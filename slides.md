@@ -29,6 +29,10 @@ presenter: true
 download: true
 # filename of the export file
 exportFilename: 'normal-dist-presentation'
+# enable slide recording, can be boolean, 'dev' or 'build'
+record: 'build'
+# favicon, can be a local file path or URL
+favicon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Mu_uc_lc.svg/100px-Mu_uc_lc.svg.png'
 ---
 
 # Die Normalverteilung
