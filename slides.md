@@ -117,6 +117,10 @@ image: /sigma-intervalle3.png
 
 # Sigma-Intervalle
 
+<div id="image-div">
+  <img src="/sigma-intervalle3.png" class="m-40 h-40 rounded shadow" />
+</div>
+
 <br />
 
 $$ 
