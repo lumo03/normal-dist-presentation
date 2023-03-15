@@ -110,7 +110,7 @@ Geben Sie Erwartungswert und Standardabweichung der Verteilungen an und begründ
 ---
 layout: image
 
-image: ./images/sigma-intervalle.png
+image: ./pages/sigma-intervalle2.png
 ---
 
 ---
