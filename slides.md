@@ -95,24 +95,42 @@ Geben Sie Erwartungswert und Standardabweichung der Verteilungen an und begründ
 
 # Graph - Eigenschaften
 
+<div id="image-div">
+  <img src="/graph-punkte.png" class="rounded shadow" />
+</div>
+
 <br />
 
 <v-clicks>
 
-- Gaußsche Glockenkurve, deren Höhe und Breite von $\sigma$ abhängt
+- stetige Gaußsche Glockenkurve, deren Höhe und Breite von $\sigma$ abhängt
 - Veränderung von $\mu$ verschiebt die Glockenkurve in x-Richtung
 - $\mu$ ist die x-Koordinate des Hochpunkts
 - Achsensymmetrie zur Geraden mit der Gleichung $x=\mu$
 - → Symmetrie um Erwartungswert
+- $\forall x \in \mathbb{R}: f(x) > 0$
+- Wendestellen bei $x_1 = \mu - \sigma$ und $x_2 = \mu + \sigma$
 
 </v-clicks>
+
+<style>
+  #image-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+  }
+  img {
+    height: 100%;
+  }
+</style>
 
 ---
 
 # Sigma-Intervalle
 
 <div id="image-div">
-  <img src="/sigma-intervalle3.png" class="rounded shadow" />
+  <img src="/sigma-intervalle.png" class="rounded shadow" />
 </div>
 
 <br />
