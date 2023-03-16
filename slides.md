@@ -69,7 +69,7 @@ Kennzeichnung, dass $X$ normalverteilt ist: $\ {\displaystyle X\sim {\mathcal {N
 
 # Aufgabe 1
 
-Geben Sie Erwartungswert und Standardabweichung der Verteilungen an und begründen Sie jeweils, ob es sich um eine **valide** Normalverteilung handelt. Wenn dies zutrifft, geben Sie zusätzlich die Wahrscheinlichkeitsdichtefunktion $f(x)$ an.
+Geben Sie jeweils begründet an, ob es sich um eine **valide** Normalverteilung handelt. Wenn dies zutreffen sollte, geben Sie zusätzlich Erwartungswert, Standardabweichung und die Wahrscheinlichkeitsdichtefunktion $f(x)$ an.
 
 - $\ {\displaystyle X\sim {\mathcal {N}}\left(0 ,4 \right)}$
 - $\ {\displaystyle Y\sim {\mathcal {N}}\left(-4 ,16 \right)}$
