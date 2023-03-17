@@ -1,16 +1,16 @@
 <template>
-    <span v-html="renderedExpression"></span>
+  <span v-html="renderedExpression"></span>
 </template>
 
 <script>
-import katex from 'katex';
+import katex from "katex";
 
 export default {
   props: {
     ex: {
       type: String,
-      required: true
-    }
+      required: true,
+    },
   },
   computed: {
     renderedExpression() {
@@ -18,9 +18,9 @@ export default {
         return katex.renderToString(this.ex);
       } catch (error) {
         console.error(error);
-        return '';
+        return "";
       }
-    }
-  }
+    },
+  },
 };
 </script>
