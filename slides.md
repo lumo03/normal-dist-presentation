@@ -155,6 +155,68 @@ $$\Phi(x) = \frac{1}{\sqrt{2\pi}} \cdot e^{-\frac{x^2}{2}}$$
 
 ---
 
+# Wahrscheinlichkeit
+
+<div id="image-div">
+  <img src="/normalverteilung-beispiel.png" class="rounded shadow" />
+</div>
+
+<br />
+
+<div>
+
+- Wahrscheinlichkeit entspricht Fläche unter dem Graphen
+- Flächeinhalt beträgt insgesamt $1$ ($100 \%$)
+
+</div>
+
+<style>
+  #image-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+  }
+  img {
+    height: 100%;
+  }
+</style>
+---
+
+# Verteilungsfunktion
+
+Eine Verteilungsfunktion beschreibt die Fläche, die die Dichtefunktion mit der 
+$x$-Achse einschließt. Sie wird daher mit einem Integral beschrieben:
+
+$$ F(x)= \int _{-\infty }^{x}f(t)\ \mathrm {d} t = {\frac {1}{\sigma {\sqrt {2\pi }}}}\int _{-\infty }^{x}e^{-{\frac {1}{2}}\left({\frac {t-\mu }{\sigma }}\right)^{2}}\mathrm {d} t $$
+
+<br />
+
+$$ F(z_0) =  P(X \leq z_0)$$
+
+<br />
+
+$$ P(z_1 \leq X \leq z_2) = F(z_2) - F(z_1)
+
+---
+
+# Inverse Normalverteilung
+
+- $P(X \leq a)=P_0$ gegeben
+- $a$ gesucht
+
+- Berechnung:
+  $$\begin{aligned}
+    F(a) &= P_0\\
+    {\frac {1}{\sigma {\sqrt {2\pi }}}}\int _{-\infty }^{a}e^{-{\frac {1}{2}}\left({\frac {t-\mu }{\sigma }}\right)^{2}}\mathrm {d} t &= P_0\\
+    a &= ...\ \text{(nach a auflösen)}\\
+    \text{OD}&\text{ER}\\
+    a &= invNorm(P_0, \mu, \sigma)\ \text{(mit GTR)}\\
+    (P_0 \in [0, 1];\ &\mu, \sigma \in \mathbb{R})
+  \end{aligned}$$
+
+---
+
 # Sigma-Intervalle
 
 <div id="image-div">
@@ -207,8 +269,10 @@ $$ \sigma^2 = n \cdot p \cdot (1-p) $$
 
 ---
 
-<img src="/aufgabe2.png" />
+<Aufgabe2 />
 
 ---
+
+# Lösung
 
 <img src="/aufgabe2l.png" />
