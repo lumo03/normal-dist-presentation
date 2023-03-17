@@ -215,7 +215,7 @@ P(z_1 \leq X \leq z_2) = F(z_2) - F(z_1)
     {\frac {1}{\sigma {\sqrt {2\pi }}}}\int _{-\infty }^{a}e^{-{\frac {1}{2}}\left({\frac {t-\mu }{\sigma }}\right)^{2}}\mathrm {d} t &= P_0\\
     a &= ...\ \text{(nach a auflösen)}\\
     \text{OD}&\text{ER}\\
-    a &= invNorm(P_0, \mu, \sigma)\ \text{(mit GTR)}\\
+    a &= \text{invNorm}(P_0, \mu, \sigma)\ \text{(mit GTR)}\\
     (P_0 \in [0, 1];\ &\mu, \sigma \in \mathbb{R})
   \end{aligned}
 $$
